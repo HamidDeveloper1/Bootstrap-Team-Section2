@@ -1,0 +1,119 @@
+.info {
+    font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+  
+}
+p,a,h1,h2,h3,h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.name1 {
+  font-family: "Poppins", sans-serif;
+  padding: 80px 0;
+}
+
+.name1 .header {
+  margin-bottom: 50px;
+}
+
+.name1 .header .small-title {
+    margin-bottom: 100px;
+  font-size: 25px;
+    font-weight: 500;
+    color: #4266f3;
+}
+
+.name1 .header .title {
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.name1 .name2 {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #f6f9ff;
+  border-radius: 50px;
+}
+
+.name1 .name2:hover {
+  background: linear-gradient(to right, #016cec, #00b5f7);
+}
+
+.name1 .name2 .image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 1px dashed transparent;
+    transition: padding .3s;
+}
+
+.name1 .name2:hover .image {
+  padding: 12px;
+    border: 4px dashed #fff;
+}
+
+.name1 .name2 .image img {
+  width: 100%;
+    border-radius: 50%;
+}
+
+.name1 .name2 .image .icon {
+  position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(to right, #016cec, #00b5f7);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.name1 .name2:hover .image .icon {
+  background: none;
+  background-color: #fff;
+  color: #016cec;
+}
+
+.name1 .name2 .info .name {
+  margin-bottom: 10px;
+  font-size: 28px;
+    font-weight: 700;
+}
+
+.name1 .name2 .info .head1 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #016cec;
+}
+
+.name1 .name2:hover .name,
+.name1 .name2:hover .head1 {
+  color: #fff;
+}
+.name1 ul li a {
+    color: #8d97ad;
+    padding-right: 15px;
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+  }
+.name1 ul li a:hover {
+    -webkit-transform: translate3d(0px, -5px, 0px);
+    transform: translate3d(0px, -5px, 0px);
+      color: #316ce8;
+  }
+.name1 .info .follow-us{
+  margin:20px 0 0;
+}
+.name1 .info .follow-us li{ 
+    display:inline-block; 
+  width:auto; 
+  margin:0 5px;
+}
